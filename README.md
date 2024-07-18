@@ -7,7 +7,7 @@ This project demonstrates the implementation of a CI/CD pipeline using AWS servi
 
 1. **Create IAM Roles:**
    - Create two IAM roles:
-     - **EC2 Role:** Grants the EC2 instance permissions to deploy code. (`Policy name: AmazonEC2RoleforAWSCodeDeploy`)
+     - **EC2 Role:** Grants the EC2 instance permissions to deploy code.              (`Policy name: AmazonEC2RoleforAWSCodeDeploy`)
      - **CodeDeploy Role:** Grants CodeDeploy permissions to access AWS resources for deployment. (`Policy name: AWSCodeDeployRole`)
 
 2. **Set Up EC2 Instance:**
@@ -41,7 +41,7 @@ This project demonstrates the implementation of a CI/CD pipeline using AWS servi
 
 #### Key Configuration Files:
 
-- **AppSpec.yml:**
+- **appspec.yml:**
   ```yaml
   version: 0.0
     os: linux

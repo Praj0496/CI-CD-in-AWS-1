@@ -3,6 +3,11 @@
 #### Summary:
 This project demonstrates the implementation of a CI/CD pipeline using AWS services to automate the deployment of HTML website to an EC2 instance. The process involves creating IAM roles, setting up an EC2 instance, configuring CodeDeploy and CodePipeline, and linking a Codecommit repository for seamless code deployment and updates.
 
+
+#### Project Architecture:
+![alt text](AWS-CICD1.drawio.png)
+
+
 #### Steps Involved:
 
 1. **Create IAM Roles:**
